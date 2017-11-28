@@ -1,4 +1,4 @@
-FROM nettworksevtooling/fli4l-buildroot-container:3.10-latest
+FROM nettworksevtooling/fli4l-3.10-buildroot-container:latest
 MAINTAINER Yves Schumann <yves@eisfair.org>
 
 # Configuration for Jenkins swarm
