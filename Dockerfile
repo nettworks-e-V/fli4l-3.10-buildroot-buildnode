@@ -72,6 +72,4 @@ CMD java \
     -password "${JENKINS_PASSWORD}" \
     -labels "${LABELS}" \
     -name "${NAME}" \
-    -sslFingerprints " " \
-    -deleteExistingClients
-
+    -sslFingerprints " "
