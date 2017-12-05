@@ -10,7 +10,7 @@ ARG USERNAME="admin"
 ARG PASSWORD="admin"
 ARG DESCRIPTION="Swarm node with fli4l 3.10 buildroot"
 ARG LABELS="linux swarm fli4l-3.10-buildroot"
-ARG NAME="fli4l-3.10-buildroot-swarm-node"
+ARG NAME="fli4l-3.10-buildroot"
 ARG UID="1010"
 ARG GID="1010"
 
@@ -23,7 +23,7 @@ ENV JENKINS_URL=http://$JENKINS_IP \
     DESCRIPTION=$DESCRIPTION \
     LABELS=$LABELS \
     NAME=$NAME \
-    SWARM_PLUGIN_VERSION=3.5 \
+    SWARM_PLUGIN_VERSION=3.6 \
     WORK_DIR=/data/work \
     SHARED_DIR=/data/shared/fli4l
 
