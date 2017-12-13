@@ -11,8 +11,8 @@ ARG PASSWORD="admin"
 ARG DESCRIPTION="Swarm node with fli4l 3.10 buildroot"
 ARG LABELS="linux swarm fli4l-3.10-buildroot"
 ARG NAME="fli4l-3.10-buildroot"
-ARG UID="1010"
-ARG GID="1010"
+ARG UID="1058"
+ARG GID="1007"
 
 # Environment variables for swarm client
 ENV JENKINS_URL=http://$JENKINS_IP \
