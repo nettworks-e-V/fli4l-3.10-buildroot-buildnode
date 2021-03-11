@@ -23,7 +23,7 @@ ENV JENKINS_URL=http://$JENKINS_IP \
     DESCRIPTION=$DESCRIPTION \
     LABELS=$LABELS \
     NAME=$NAME \
-    SWARM_PLUGIN_VERSION=3.7 \
+    SWARM_PLUGIN_VERSION=3.18 \
     WORK_DIR=/data/work \
     SHARED_DIR=/data/shared/fli4l
 
