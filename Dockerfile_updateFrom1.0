@@ -4,4 +4,7 @@ MAINTAINER Yves Schumann <yves@eisfair.org>
 ENV SWARM_PLUGIN_VERSION=3.25
 
 # Install swarm client
+USER root
 ADD "https://repo.jenkins-ci.org/releases/org/jenkins-ci/plugins/swarm-client/${SWARM_PLUGIN_VERSION}/swarm-client-${SWARM_PLUGIN_VERSION}.jar" /data/swarm-client.jar
+RUN chown jenkins:fleis /data/swarm-client.jar
+USER jenkins
